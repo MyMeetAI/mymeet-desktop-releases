@@ -9,6 +9,10 @@ Public installer binaries for Mymeet.ai Desktop (macOS and Windows).
 
 See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
 
+- Latest tag: `v0.1.36`
+- Windows installer: `Mymeet.ai.Setup.0.1.36.exe`
+- Windows SHA256: `84bf3367b2e60adaaf6735243a2869b66a8b316583984490f7a807ed6b86436a`
+
 ## Available builds
 
 | Release | macOS | Windows | Architecture |
