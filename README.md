@@ -9,17 +9,18 @@ Public installer binaries for Mymeet.ai Desktop (macOS and Windows).
 
 See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
 
-- Latest tag: `v0.1.37`
-- Windows installer: `Mymeet.ai.Setup.0.1.37.exe`
-- Windows SHA256: `ae9cc89d4e298d4b4c267e749b42a4f1db36f316de1ce21e106b6f012d5ab30f`
-- Windows hotfix: render-only notification audio no longer starts the
-  auto-detect prompt; trusted call apps still trigger once microphone capture
-  is active.
+- Latest tag: `v0.1.38`
+- Windows installer: `Mymeet.ai.Setup.0.1.38.exe`
+- Windows SHA256: `5503dd3cc06e717aca53a080ee596936e43260100b481cb4e46b690fe34dab14`
+- Windows hotfix: workspace-aware uploads now sync the signed-in user's active
+  workspace before upload, browser login stores workspace identity, and
+  diagnostics separate upload/auth/workspace/cloud-log state.
 
 ## Available builds
 
 | Release | macOS | Windows | Architecture |
 |---|---|---|---|
+| v0.1.38 | - | 10/11 | Windows x64/ia32 |
 | v0.1.37 | 14.4+ | 10/11 | macOS arm64/x64 + Windows x64/ia32 |
 | v0.1.36 | 14.4+ | 10/11 | macOS arm64/x64 + Windows x64/ia32 |
 | v0.1.10 | 14.4+ | - | Apple Silicon (arm64) + Intel (x64) |
