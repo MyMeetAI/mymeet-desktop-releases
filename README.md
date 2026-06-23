@@ -11,10 +11,10 @@ See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
 
 - Latest tag: `v0.1.38`
 - Windows installer: `Mymeet.ai.Setup.0.1.38.exe`
-- Windows SHA256: `5503dd3cc06e717aca53a080ee596936e43260100b481cb4e46b690fe34dab14`
-- Windows hotfix: workspace-aware uploads now sync the signed-in user's active
-  workspace before upload, browser login stores workspace identity, and
-  diagnostics separate upload/auth/workspace/cloud-log state.
+- Windows SHA256: `ce3ccc16df0fb8342ffefa511b6d05e831b84d633b9654e3fc9981aa7ff728ab`
+- Windows hotfix: default-browser login now reads SQLite WAL/SHM sidecar files
+  so freshly completed Chrome sign-ins are detected more reliably; workspace
+  sync and upload/auth/workspace diagnostics remain included.
 
 ## Available builds
 
