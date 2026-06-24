@@ -9,17 +9,18 @@ Public installer binaries for Mymeet.ai Desktop (macOS and Windows).
 
 See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
 
-- Latest tag: `v0.1.38`
-- Windows installer: `Mymeet.ai.Setup.0.1.38.exe`
-- Windows SHA256: `ce3ccc16df0fb8342ffefa511b6d05e831b84d633b9654e3fc9981aa7ff728ab`
-- Windows hotfix: default-browser login now reads SQLite WAL/SHM sidecar files
-  so freshly completed Chrome sign-ins are detected more reliably; workspace
-  sync and upload/auth/workspace diagnostics remain included.
+- Latest tag: `v0.1.39`
+- Windows installer: `Mymeet.ai.Setup.0.1.39.exe`
+- Windows SHA256: `3E8030C3301C5A031059D22E574BE9AD8C6300FDBEBC91F1E5EC856B35CD3EF8`
+- Windows hotfix: Windows upload now matches macOS backend interaction and no
+  longer performs active-workspace sync before `/api/video`; previous 0.1.39
+  mic-source protection and locked browser-cookie diagnostics remain included.
 
 ## Available builds
 
 | Release | macOS | Windows | Architecture |
 |---|---|---|---|
+| v0.1.39 | - | 10/11 | Windows x64/ia32 |
 | v0.1.38 | - | 10/11 | Windows x64/ia32 |
 | v0.1.37 | 14.4+ | 10/11 | macOS arm64/x64 + Windows x64/ia32 |
 | v0.1.36 | 14.4+ | 10/11 | macOS arm64/x64 + Windows x64/ia32 |
