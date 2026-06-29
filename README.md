@@ -9,7 +9,10 @@ Public installer binaries for Mymeet.ai Desktop (macOS and Windows).
 
 See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
 
-- Latest tag: `v0.1.39`
+- Latest macOS tag: `v0.1.40`
+- Latest Windows tag: `v0.1.39`
+- macOS Apple Silicon: `Mymeet.ai-0.1.40-arm64.dmg`
+- macOS Intel: `Mymeet.ai-0.1.40.dmg`
 - Windows installer: `Mymeet.ai.Setup.0.1.39.exe`
 - Windows SHA256: `3E8030C3301C5A031059D22E574BE9AD8C6300FDBEBC91F1E5EC856B35CD3EF8`
 - Windows hotfix: Windows upload now matches macOS backend interaction and no
@@ -20,6 +23,7 @@ See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
 
 | Release | macOS | Windows | Architecture |
 |---|---|---|---|
+| v0.1.40 | 14.4+ | - | macOS arm64/x64 |
 | v0.1.39 | - | 10/11 | Windows x64/ia32 |
 | v0.1.38 | - | 10/11 | Windows x64/ia32 |
 | v0.1.37 | 14.4+ | 10/11 | macOS arm64/x64 + Windows x64/ia32 |
