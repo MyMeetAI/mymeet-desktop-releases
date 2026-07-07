@@ -14,11 +14,12 @@ See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
 - macOS Apple Silicon: `Mymeet.ai-0.1.40-arm64.dmg`
 - macOS Intel: `Mymeet.ai-0.1.40.dmg`
 - Windows installer: `Mymeet.ai.Setup.0.1.40.exe`
-- Windows SHA256: `C6167DF2810A4C69007BD76BDBF37F7CBD3C7514136D84829CA2FB629B4A5663`
+- Windows SHA256: `FB443095F01F0D07472CB87BD461A2721A2C912437F1F41488C3EA14805B80EF`
 - Windows update: reopening the app from the desktop or Start shortcut now
   opens `Recordings` after onboarding, and double-clicking the tray icon opens
-  the same primary screen. Previous 0.1.39 upload and mic-source fixes remain
-  included.
+  the same primary screen. Expired backend auth now returns users to login
+  cleanly, and backend-ready meetings are marked sent without repeated retries.
+  Previous 0.1.39 upload and mic-source fixes remain included.
 
 ## Available builds
 
