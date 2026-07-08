@@ -13,6 +13,9 @@ See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
 - Latest Windows tag: `v0.1.40`
 - macOS Apple Silicon: `Mymeet.ai-0.1.40-arm64.dmg`
 - macOS Intel: `Mymeet.ai-0.1.40.dmg`
+- macOS hotfix: `v0.1.40` was refreshed on 2026-07-08 with the Dock
+  visibility fix for the auto-detect `Вы на встрече?` prompt; version stayed
+  `0.1.40` intentionally.
 - Windows installer: `Mymeet.ai.Setup.0.1.40.exe`
 - Windows SHA256: `FB443095F01F0D07472CB87BD461A2721A2C912437F1F41488C3EA14805B80EF`
 - Windows update: reopening the app from the desktop or Start shortcut now
