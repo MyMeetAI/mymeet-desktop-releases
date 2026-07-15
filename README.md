@@ -9,13 +9,14 @@ Public installer binaries for Mymeet.ai Desktop (macOS and Windows).
 
 See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
 
-- Latest macOS tag: `v0.1.40`
+- Latest macOS tag: `v0.1.42`
 - Latest Windows tag: `v0.1.40`
-- macOS Apple Silicon: `Mymeet.ai-0.1.40-arm64.dmg`
-- macOS Intel: `Mymeet.ai-0.1.40.dmg`
-- macOS hotfix: `v0.1.40` was refreshed on 2026-07-08 with the Dock
-  visibility fix for the auto-detect `Вы на встрече?` prompt; version stayed
-  `0.1.40` intentionally.
+- macOS Apple Silicon: `Mymeet.ai-0.1.42-arm64.dmg`
+- macOS Intel: `Mymeet.ai-0.1.42.dmg`
+- macOS update: onboarding, Recordings, Settings, notifications, app/tray
+  icons, and the native menu-bar context menu now share the redesigned Mymeet
+  interface. Explicit launches open Recordings; login-item startup stays in the
+  menu bar.
 - Windows installer: `Mymeet.ai.Setup.0.1.40.exe`
 - Windows SHA256: `FB443095F01F0D07472CB87BD461A2721A2C912437F1F41488C3EA14805B80EF`
 - Windows update: reopening the app from the desktop or Start shortcut now
@@ -28,6 +29,8 @@ See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
 
 | Release | macOS | Windows | Architecture |
 |---|---|---|---|
+| v0.1.42 | 14.4+ | - | macOS arm64/x64 |
+| v0.1.41 | 14.4+ | - | macOS arm64/x64 |
 | v0.1.40 | 14.4+ | 10/11 | macOS arm64/x64 + Windows x64/ia32 |
 | v0.1.39 | - | 10/11 | Windows x64/ia32 |
 | v0.1.38 | - | 10/11 | Windows x64/ia32 |
