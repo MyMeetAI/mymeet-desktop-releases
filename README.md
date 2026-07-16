@@ -13,6 +13,11 @@ See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
 - Latest Windows tag: `v0.1.40`
 - macOS Apple Silicon: `Mymeet.ai-0.1.42-arm64.dmg`
 - macOS Intel: `Mymeet.ai-0.1.42.dmg`
+- macOS hotrelease: `v0.1.42` was refreshed on 2026-07-16 from source commit
+  `bb1ec21` after IVA-1698; the version stayed `0.1.42` intentionally.
+- macOS upload recovery: Retry now performs a fresh upload from chunk 0 with
+  new transport IDs, interrupted attempts survive restart, and ambiguous
+  finalize responses are recovered without reusing a corrupted upload cache.
 - macOS update: onboarding, Recordings, Settings, notifications, app/tray
   icons, and the native menu-bar context menu now share the redesigned Mymeet
   interface. Explicit launches open Recordings; login-item startup stays in the
