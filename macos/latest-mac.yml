@@ -1,0 +1,8 @@
+version: 0.1.48
+files:
+  - url: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/mac-v0.1.48/Mymeet.ai-0.1.48-universal-mac.zip
+    sha512: H6TkASa4HEoyZ5GSJXW6IB2cNm20z2hjn2kSbveyOGUQ+FfaPq2sD4yvDQB1pxzzZvPXgoFFQ1mkv4f87mlaLQ==
+    size: 218711121
+path: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/mac-v0.1.48/Mymeet.ai-0.1.48-universal-mac.zip
+sha512: H6TkASa4HEoyZ5GSJXW6IB2cNm20z2hjn2kSbveyOGUQ+FfaPq2sD4yvDQB1pxzzZvPXgoFFQ1mkv4f87mlaLQ==
+releaseDate: '2026-07-28T13:11:31.178Z'
