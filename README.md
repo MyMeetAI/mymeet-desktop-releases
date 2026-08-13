@@ -1,53 +1,36 @@
 # Mymeet.ai Desktop releases
 
-Public installer binaries for Mymeet.ai Desktop (macOS and Windows).
+Public installer binaries and updater manifests for Mymeet.ai Desktop on macOS and Windows.
 
-> Source code: [`mymeet-desktop-recorder`](https://github.com/mymeet-ai-first-company/mymeet-desktop-recorder) (private)
-> Landing page: [suite.mymeet.ai/desktop](https://suite.mymeet.ai/desktop)
+Source repositories are private. Downloadable binaries are published on the
+[Releases](../../releases) page.
 
-## Latest release
+## Platform update channels
 
-See [Releases](../../releases) tab for `.dmg` and `.exe` downloads.
+The update feeds are intentionally isolated by platform:
 
-- Latest macOS tag: `v0.1.42`
-- Latest Windows tag: `v0.1.40`
-- macOS Apple Silicon: `Mymeet.ai-0.1.42-arm64.dmg`
-- macOS Intel: `Mymeet.ai-0.1.42.dmg`
-- macOS hotrelease: `v0.1.42` was refreshed on 2026-07-16 from source commit
-  `bb1ec21` after IVA-1698; the version stayed `0.1.42` intentionally.
-- macOS upload recovery: Retry now performs a fresh upload from chunk 0 with
-  new transport IDs, interrupted attempts survive restart, and ambiguous
-  finalize responses are recovered without reusing a corrupted upload cache.
-- macOS update: onboarding, Recordings, Settings, notifications, app/tray
-  icons, and the native menu-bar context menu now share the redesigned Mymeet
-  interface. Explicit launches open Recordings; login-item startup stays in the
-  menu bar.
-- Windows installer: `Mymeet.ai.Setup.0.1.40.exe`
-- Windows SHA256: `FB443095F01F0D07472CB87BD461A2721A2C912437F1F41488C3EA14805B80EF`
-- Windows update: reopening the app from the desktop or Start shortcut now
-  opens `Recordings` after onboarding, and double-clicking the tray icon opens
-  the same primary screen. Expired backend auth now returns users to login
-  cleanly, and backend-ready meetings are marked sent without repeated retries.
-  Previous 0.1.39 upload and mic-source fixes remain included.
+- macOS: [`macos/latest-mac.yml`](macos/latest-mac.yml), with release tags such as `mac-v0.1.54`;
+- Windows: [`windows/latest.yml`](windows/latest.yml), with release tags such as `win-v0.1.54`.
 
-## Available builds
+Each release workflow updates only its own manifest. Manifest asset URLs are
+immutable GitHub Release URLs, so publishing one platform cannot redirect or
+roll back the other platform's update channel.
 
-| Release | macOS | Windows | Architecture |
-|---|---|---|---|
-| v0.1.42 | 14.4+ | - | macOS arm64/x64 |
-| v0.1.41 | 14.4+ | - | macOS arm64/x64 |
-| v0.1.40 | 14.4+ | 10/11 | macOS arm64/x64 + Windows x64/ia32 |
-| v0.1.39 | - | 10/11 | Windows x64/ia32 |
-| v0.1.38 | - | 10/11 | Windows x64/ia32 |
-| v0.1.37 | 14.4+ | 10/11 | macOS arm64/x64 + Windows x64/ia32 |
-| v0.1.36 | 14.4+ | 10/11 | macOS arm64/x64 + Windows x64/ia32 |
-| v0.1.10 | 14.4+ | - | Apple Silicon (arm64) + Intel (x64) |
-| v0.1.9 | 14.4+ | - | Apple Silicon (arm64) + Intel (x64) |
-| v0.1.8 | 13+ | - | Apple Silicon (arm64) + Intel (x64) |
-| v0.1.0 | 13+ | - | Apple Silicon (arm64) + Intel (x64) |
+## Current releases
 
-## Install
+- macOS: `mac-v0.1.54` (arm64 and x64);
+- Windows: `win-v0.1.54` (x64 and ia32).
 
-Скачайте `.dmg` подходящий вашему Mac, перетащите в Applications, при первом запуске right-click → Open или System Settings → Privacy & Security → Open Anyway (билд не подписан Apple Developer ID).
+The Windows release contains signed NSIS installers, blockmaps, SHA-256
+checksums, and a provenance manifest.
 
-Полная инструкция: [suite.mymeet.ai/desktop](https://suite.mymeet.ai/desktop).
+## Install notes
+
+On macOS, download the appropriate DMG, move the app to Applications, and use
+right-click → Open or System Settings → Privacy & Security → Open Anyway if
+macOS blocks the first launch.
+
+The Windows installers use the project's pinned self-signed Authenticode
+identity. Windows can show SmartScreen / Unknown Publisher during the first
+manual installation. The application updater independently verifies the exact
+pinned certificate and artifact identity for later updates.
