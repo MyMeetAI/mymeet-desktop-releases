@@ -1,10 +1,10 @@
-version: 0.1.59
+version: 0.1.60
 files:
-  - url: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/win-v0.1.59/Mymeet.ai-0.1.59-x64-Setup.exe
-    sha512: HYsJQL1ydz9L10i+bTh3bvgZjQ7GFY+WA91yYHRbGCkN8UP22OVSSvZ6Lk8TqSOEieN9EpHQWWo7Gw7F0aPL7g==
-    size: 84267800
-  - url: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/win-v0.1.59/Mymeet.ai-0.1.59-ia32-Setup.exe
-    sha512: 3VFpd51mG/JAFxfkwRo02iKmng9Iez9Gm1iw+acDxxwQOPFkTKvpvECVzAHBDhvtL9QVZJZ2zPtlPK5eYs09bA==
-    size: 78544056
-path: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/win-v0.1.59/Mymeet.ai-0.1.59-x64-Setup.exe
-sha512: HYsJQL1ydz9L10i+bTh3bvgZjQ7GFY+WA91yYHRbGCkN8UP22OVSSvZ6Lk8TqSOEieN9EpHQWWo7Gw7F0aPL7g==
+  - url: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/win-v0.1.60/Mymeet.ai-0.1.60-x64-Setup.exe
+    sha512: lRmGT6SIemLLzmgSFRwnRZyIIZJQ784C9WnHH7r8GkClrT5Wb10Yp59dK2o+Z2Nn13dFx3etMcbX0O476HYqDg==
+    size: 84270520
+  - url: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/win-v0.1.60/Mymeet.ai-0.1.60-ia32-Setup.exe
+    sha512: Xo2Ay1xt+RyVYmTuRY6kTfODngVXC6hy5tV56P30HKMmZvb4t1XwOX/BaENaxaMJt2Q19CCF1xBI+ZZUKYrVaA==
+    size: 78545736
+path: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/win-v0.1.60/Mymeet.ai-0.1.60-x64-Setup.exe
+sha512: lRmGT6SIemLLzmgSFRwnRZyIIZJQ784C9WnHH7r8GkClrT5Wb10Yp59dK2o+Z2Nn13dFx3etMcbX0O476HYqDg==
