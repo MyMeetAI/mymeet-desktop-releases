@@ -1,10 +1,10 @@
-version: 0.1.76
+version: 0.1.77
 files:
-  - url: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/mac-v0.1.76/Mymeet.ai-0.1.76-arm64-mac.zip
-    sha512: 8dN/d1WZan9zsxADN0Kar5pt2Ck1QvDFpBRPPbJmp2NpRqZHfDRrKmbr+U9Smw9dZreY0MoKth3V0ETgVBf5FA==
-    size: 137206357
-  - url: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/mac-v0.1.76/Mymeet.ai-0.1.76-x64-mac.zip
-    sha512: jen+fDFBsN5Z3hHfU4gWfMhFR77336iFPDaBsXQkv9IYqrOPyeza5E+/mzRoALLCmgCWlU4jxrfkOsXaFqY4/Q==
-    size: 144137166
-path: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/mac-v0.1.76/Mymeet.ai-0.1.76-x64-mac.zip
-sha512: jen+fDFBsN5Z3hHfU4gWfMhFR77336iFPDaBsXQkv9IYqrOPyeza5E+/mzRoALLCmgCWlU4jxrfkOsXaFqY4/Q==
+  - url: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/mac-v0.1.77/Mymeet.ai-0.1.77-arm64-mac.zip
+    sha512: KTM7XWz3dwU9LgCiT/KZKl8v92QjHl4TX8C50FCc1B+EEvZWiJnc/WGCErno4kVrpuRHGjD81bVf8z2wuIajyw==
+    size: 137218505
+  - url: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/mac-v0.1.77/Mymeet.ai-0.1.77-x64-mac.zip
+    sha512: pBOUkC4CY/Z4E6YqX1cnrbLAWyhEEJFjgw/g+iyQ99XOHsf1N4CsypaJJpa5VfNCplZS4Yh325jXt++teaXukw==
+    size: 144150386
+path: https://github.com/MyMeetAI/mymeet-desktop-releases/releases/download/mac-v0.1.77/Mymeet.ai-0.1.77-x64-mac.zip
+sha512: pBOUkC4CY/Z4E6YqX1cnrbLAWyhEEJFjgw/g+iyQ99XOHsf1N4CsypaJJpa5VfNCplZS4Yh325jXt++teaXukw==
